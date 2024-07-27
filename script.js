@@ -2,20 +2,20 @@ let musics = [
     {
         title: 'Skating On The Uppers',
         artist: 'National Sweetheart',
-        src: '/src/Skating On the Uppers - National Sweetheart.mp3',
-        img: '/src/rock.jpg'
+        src: './src/Skating On the Uppers - National Sweetheart.mp3',
+        img: './src/rock.jpg'
     },
     {
         title: 'Oh Fire',
         artist: 'Carmen María and Edu',
-        src: '/src/Oh Fire - Carmen María and Edu Espinal.mp3',
-        img: '/src/reggae.jpg'
+        src: './src/Oh Fire - Carmen María and Edu Espinal.mp3',
+        img: './src/reggae.jpg'
     },
     {
         title: 'Headlands',
         artist: 'National Sweetheart',
-        src: '/src/Headlands - National Sweetheart.mp3',
-        img: '/src/chill.jpg'
+        src: './src/Headlands - National Sweetheart.mp3',
+        img: './src/chill.jpg'
     }
 ];
 
