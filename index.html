@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta https-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+        <script src="https://kit.fontawesome.com/220a1fe568.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="/style.css">
+        <title>Music Player</title>
+    </head>
+
+    <body>
+        <main>
+
+            <img src="/src/rock.jpg" alt="img rock">
+
+            <div class="description">
+                <h2>Nome da Música</h2>
+                <i>Nome do Artista</i>
+            </div>
+
+            <div class="musicTiming">
+                <div class="bar">
+                    <progress value="0" max="1"></progress>
+                    <div class="bulletPoint"></div>
+                </div>
+
+                <div class="time">
+                    <p class="start">0:00</p>
+                    <p class="end">3:40</p>
+                </div>
+            </div>
+
+            <div class="player">
+                <i class="fa-solid fa-backward-step arrows before"></i>
+                <i class="fa-solid fa-circle-play btn-play"></i>
+                <i class="fa-solid fa-circle-pause btn-pause"></i>
+                <i class="fa-solid fa-forward-step arrows after"></i>
+            </div>
+
+
+            <audio src="/src/Skating On the Uppers - National Sweetheart.mp3"></audio>
+        </main>
+
+
+        <script src="/script.js"></script>
+    </body>
+
+</html>
