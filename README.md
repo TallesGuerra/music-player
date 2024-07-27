@@ -31,4 +31,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <br/>
 
-# 💻 Você pode acessar [aqui]()
+# 💻 Você pode acessar [aqui](music-player-ten-khaki.vercel.app)
